@@ -1,4 +1,13 @@
-﻿using System;
+﻿///////////////////////////////////////////////////////////////////////
+///
+/// Author:         Ben Smith
+/// Course:         Server Side Web Programming 
+/// Assignment:     Lab 4
+/// Description:    A file to enable the person portion of the program.
+/// 
+///////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,11 +15,13 @@ using System.Threading.Tasks;
 
 namespace CSV_to_PSV
 {
+    /// <summary>
+    /// A class to define all the properties and methods of a person object. 
+    /// </summary>
     internal class Person : IComparable<Person>
     {
         public string FirstName { get; init; }
         public string LastName { get; init; }
-
         public Address Address { get; init; }
 
         /// <summary>

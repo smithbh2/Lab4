@@ -1,4 +1,13 @@
-﻿using System;
+﻿///////////////////////////////////////////////////////////////////////
+///
+/// Author:         Ben Smith
+/// Course:         Server Side Web Programming 
+/// Assignment:     Lab 4
+/// Description:    A file to enable the address portion of the program. 
+/// 
+///////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +15,9 @@ using System.Threading.Tasks;
 
 namespace CSV_to_PSV
 {
+    /// <summary>
+    /// A class to define all the properties and methods of an address object. 
+    /// </summary>
     internal class Address
     {
         public string StreetAddress { get; init; }

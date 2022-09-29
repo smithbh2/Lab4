@@ -1,5 +1,17 @@
-﻿namespace CSV_to_PSV
+﻿///////////////////////////////////////////////////////////////////////
+///
+/// Author:         Ben Smith
+/// Course:         Server Side Web Programming 
+/// Assignment:     Lab 4
+/// Description:    The main program file that utilizes all the others and runs the program. 
+/// 
+///////////////////////////////////////////////////////////////////////
+
+namespace CSV_to_PSV
 {
+    /// <summary>
+    /// Class that runs the program. 
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
